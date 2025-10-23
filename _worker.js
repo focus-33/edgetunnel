@@ -1,6 +1,7 @@
 ﻿
 import { connect } from 'cloudflare:sockets';
 let userID = 'b1318ef6-af0c-40a6-a024-1fad171d4dcd';
+let proxyIP = '';
 let DNS64Server = 'dns64.fm2.ztvi.org';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
@@ -5984,5 +5985,6 @@ function config_Html(token = "test", proxyhost = "") {
     return html;
 
 }
+
 
 
